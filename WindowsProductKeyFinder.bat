@@ -22,9 +22,10 @@ if '%errorlevel%' NEQ '0' (
 ::ENTER YOUR CODE BELOW:
 title Windows Product Key Finder
 
-:loop
-set /a num=(%Random% %%9)+1
-color %num%
+mode con: cols=150 lines=25
+:::loop
+::set /a num=(%Random% %%9)+1
+::color %num%
 
 echo "_ _ _ _ _  _ ___  ____ _ _ _ ____    ___  ____ ____ ___  _  _ ____ ___    _  _ ____ _   _    ____ _ _  _ ___  ____ ____"
 echo "| | | | |\ | |  \ |  | | | | [__     |__] |__/ |  | |  \ |  | |     |     |_/  |___  \_/     |___ | |\ | |  \ |___ |__/"
@@ -35,4 +36,4 @@ wmic path softwarelicensingservice get OA3xOriginalProductKey
 echo.
 
 pause
-goto :loop
+::goto :loop
