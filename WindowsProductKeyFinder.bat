@@ -1,4 +1,6 @@
 @echo off
+title Windows Product Key Finder
+mode con: cols=150 lines=25
 :: BatchGotAdmin
 ::-------------------------------------
 REM  --> Check for permissions
@@ -20,9 +22,7 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 ::--------------------------------------
 ::ENTER YOUR CODE BELOW:
-title Windows Product Key Finder
 
-mode con: cols=150 lines=25
 :::loop
 ::set /a num=(%Random% %%9)+1
 ::color %num%
