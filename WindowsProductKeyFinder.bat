@@ -27,5 +27,4 @@ echo | | | | |\ | |  \ |  | | | | [__     |__] |__/ |  | |  \ |  | |     |     |
 echo |_|_| | | \| |__/ |__| |_|_| ___]    |    |  \ |__| |__/ |__| |___  |     | \_ |___   |      |    | | \| |__/ |___ |  \
 
 wmic path softwarelicensingservice get OA3xOriginalProductKey
-
-pause
+PAUSE
